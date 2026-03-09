@@ -44,3 +44,18 @@
 
 <br>
 <br>
+
+## 예제
+
+- [Object를 사용한 싱글톤](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/singleton/Ex1_Object.kt)
+- [EagerInitialization](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/singleton/Ex2_EagerInitialization.kt)  
+- [LazyInitialization](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/singleton/Ex3_LazyInitialization.kt)
+  - 싱글톤 객체를 지연 초기화하게 생성하는 방법을 알아봅니다
+- [ThreadSafeSingleton](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/singleton/Ex4_ThreadSafeSingleton.kt)
+  - thread-safe하게 싱글톤 객체를 초기화하는 방법을 알알봅니다
+- [DoubleCheckedLocking](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/singleton/Ex5_DoubleCheckedLocking.kt)
+  - Double-Checked-Locking에 대해 알아봅니다
+- [StaticInnerClass](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/singleton/Ex6_StaticInnerClass.kt)
+  - Kotlin에서 StaticInner 방법을 통한 싱글톤 생성 방법을 알아봅니다
+- [Enum Class](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/singleton/Ex7_Enum.kt)
+  - Enum Class를 통해 싱글톤을 생성하는 방법을 알아봅니다.   

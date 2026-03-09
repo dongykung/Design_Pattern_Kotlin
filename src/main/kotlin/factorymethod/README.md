@@ -116,3 +116,13 @@ fun main() {
 ## 단점
 - 패턴을 구현하기 위해 새로운 자식 공장 클래스들을 정의하고 구현해야하기 때문에 서브 클래스의 수가 많아진다
 - 코드가 더 복잡해진다
+
+<br>
+
+## 예제
+- [SimpleFactoryMethod](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/factorymethod/EX1_SimpleFactoryMethod.kt)
+    - SimpleFactoryMethod 예제를 알아봅니다 
+- [FactoryMethodBasic](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/factorymethod/EX2_FactoryMethodBasic.kt)
+    - 기본적인 Factory method 예제를 알아봅니다 
+- [FactoryMethodReuse](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/factorymethod/Ex3_FactoryMethod_Reuse.kt)
+    - FactoryMethod를 통해 생성된 객체들을 재사용하는 풀 예제에 대해 알아봅니다. 

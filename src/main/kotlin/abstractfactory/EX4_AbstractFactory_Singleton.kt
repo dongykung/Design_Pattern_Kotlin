@@ -1,7 +1,5 @@
 package org.example.abstractfactory
 
-import org.example.singleton.StaticInnerClass
-
 /**
  * 팩토리 클래스는 호출되면 객체를 생성하는 역할을 수행합니다.
  * 그렇기 때문에 메모리 최적화를 위해 각 팩토리 클래스마다 싱글톤을 적용하는 것이 좋습니다.

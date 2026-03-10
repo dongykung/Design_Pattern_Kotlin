@@ -117,6 +117,7 @@ fun main() {
 - 패턴을 구현하기 위해 새로운 자식 공장 클래스들을 정의하고 구현해야하기 때문에 서브 클래스의 수가 많아진다
 - 코드가 더 복잡해진다
 
+<br>
 
 ## 안드로이드에서의 Factory Method
 
@@ -133,6 +134,7 @@ class MyAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     }
 }
 ```
+
 <br>
 
 ## 예제

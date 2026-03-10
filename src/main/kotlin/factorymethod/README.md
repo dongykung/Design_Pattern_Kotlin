@@ -121,6 +121,14 @@ fun main() {
 
 ## 안드로이드에서의 Factory Method
 
+### ViewModelProvider.Factory
+Android 개발을 하며 뷰모델을 사용해보셨다면 가장 ViewModelProvider.Factory에 대해 보신 적이 있을 겁니다. <br>
+주로 종속성이 있는 뷰모델을 생성할 때 많이 사용하는데요 Factory Method 패턴을 사용합니다.
+
+ViewModelProvider.Factory에 대한 설명은 [예제4 - ViewModelProvider.Factory](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/factorymethod/ex4viewmodelfactory)에서 확인하실 수 있습니다.
+
+<br>
+
 ### RecyclerView.ViewHolder 생성 - onCreateViewHolder
 ```kotlin
 class MyAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -143,4 +151,6 @@ class MyAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 - [FactoryMethodBasic](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/factorymethod/EX2_FactoryMethodBasic.kt)
     - 기본적인 Factory method 예제를 알아봅니다 
 - [FactoryMethodReuse](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/factorymethod/Ex3_FactoryMethod_Reuse.kt)
-    - FactoryMethod를 통해 생성된 객체들을 재사용하는 풀 예제에 대해 알아봅니다. 
+    - FactoryMethod를 통해 생성된 객체들을 재사용하는 풀 예제에 대해 알아봅니다
+- [Android - ViewModelProvider.Factory](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/factorymethod/ex4viewmodelfactory)
+    - Android 개발에서 Factory Method 패턴이 ViewModel에서 어떻게 사용되는지 알아봅니다   

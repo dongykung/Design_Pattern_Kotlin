@@ -117,6 +117,22 @@ fun main() {
 - 패턴을 구현하기 위해 새로운 자식 공장 클래스들을 정의하고 구현해야하기 때문에 서브 클래스의 수가 많아진다
 - 코드가 더 복잡해진다
 
+
+## 안드로이드에서의 Factory Method
+
+### RecyclerView.ViewHolder 생성 - onCreateViewHolder
+```kotlin
+class MyAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
+        return when (viewType) {
+            TYPE_HEADER -> HeaderViewHolder(/* inflate */)
+            TYPE_ITEM -> ItemViewHolder(/* inflate */)
+            else -> throw IllegalArgumentException()
+        }
+    }
+}
+```
 <br>
 
 ## 예제

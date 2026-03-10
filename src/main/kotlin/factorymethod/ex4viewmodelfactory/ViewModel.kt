@@ -1,6 +1,6 @@
 package org.example.factorymethod.ex4viewmodelfactory
 
-open class ViewModel {
+abstract class ViewModel {
     // viewModelImpl 및 AutoCloseable Logic...
 
     protected open fun onCleared() {}

@@ -168,6 +168,22 @@ Abstract Factory는 생성해야 할 객체 집한 군의 공통점에 초점을
 - 기존 추상 팩토리의 세부사항이 변경되면 모든 팩토리에 대한 수정이 필요하다
 - 새로운 종류의 제품을 지원하게 되면 기존 팩토리를 수정해야 한다(새로운 컴포넌트가 추가될 때)
 
+<br>
+<br>
+
+## 예제
+- [Basic-AbstractFactory](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/abstractfactory/EX1_AbstractFactoryBasic.kt)
+    - Abstract-Factory 기본 구조에 대해 알아봅니다 
+- [FactoryMethodProblem](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/abstractfactory/EX2_FactoryMethodProblem.kt) 
+    - Factory Method로 이러한 상황을 구현할 시 어떤 문제점이 생기는지 알아봅니다
+- [AbstractFactory+Singleton](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/abstractfactory/EX4_AbstractFactory_Singleton.kt)
+    - AbstractFactory와 Single을 조합하여 사용하는 방법에 대해 알아봅니다
+- [AbstractFactory + Factory Method](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/abstractfactory/EX5_AbstractFactory%2BFactoryMethod.kt)
+    - AbstractFactory + Factory-Method를 동시에 사용하는 예제에 대해 알아봅니다        
+
+<br>
+<br>
+
 ### 참고자료 
 
 [추상 팩토리 - INPA](https://inpa.tistory.com/entry/GOF-%F0%9F%92%A0-%EC%B6%94%EC%83%81-%ED%8C%A9%ED%86%A0%EB%A6%ACAbstract-Factory-%ED%8C%A8%ED%84%B4-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90)

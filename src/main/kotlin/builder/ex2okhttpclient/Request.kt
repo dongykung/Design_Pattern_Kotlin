@@ -34,6 +34,7 @@ class Request constructor(
     fun newBuilder(): Builder = Builder(this)
 
     class Builder {
+        // 빌더의 멤버 변수는 가변이여야 합니다.
         internal var url: String = ""
         internal var method: String
         internal var headers: String = ""

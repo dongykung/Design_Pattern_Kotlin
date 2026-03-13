@@ -27,6 +27,7 @@ class Response(
     }
 
     class Builder {
+        // 빌더의 멤버 변수는 가변이여야 합니다.
         internal var request: Request? = null
         internal var code: Int = -1
         internal var message: String? = null

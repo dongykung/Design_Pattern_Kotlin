@@ -28,7 +28,7 @@ open class OkHttpClient(
     }
 
     class Builder() {
-
+        // 빌더의 멤버 변수는 가변이여야 합니다.
         internal var interceptors: MutableList<String> = mutableListOf()
         internal var followRedirects = true
         internal var followSslRedirects = true

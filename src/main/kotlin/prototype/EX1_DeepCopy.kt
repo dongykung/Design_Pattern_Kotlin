@@ -19,7 +19,7 @@ val allUsers = mutableListOf<User>()
 fun createUser(name: String, role: Role) {
     for (u in allUsers) {
         if (u.role == role) {
-            allUsers += User(name, role, u.permission)
+            //allUsers += User(name, role, u.permission)
             // error => 기존 유저의 permission이 private
             // 또 만약 새로운 필드가 생긴다면? 이 함수의 코드 또한 수정되어야 한다 => tasks도 명시를 해주게 수정해야 함
         }
@@ -36,8 +36,6 @@ data class User2(
     val name: String,
     val role: Role,
     private val permission: Set<String> //
-    // 또는 새로운 필드가 추가된다면? => 기존의 코드가 변경되어야 한다
-    // val tasks: List<String> 이 추가된다면?
 ) {
     fun createNewUser(name: String, role: Role): User2 {
         return User2(

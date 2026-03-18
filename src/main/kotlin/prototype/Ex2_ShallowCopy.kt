@@ -43,6 +43,7 @@ fun main() {
 
     p2.address.city = "경기"
     println(p1.address.city) // p1 까지 경기로 바뀌게 됨
+    println(p1.address === p2.address) // true
 
     // String은 불변 객체
     p2.name = "Bob"

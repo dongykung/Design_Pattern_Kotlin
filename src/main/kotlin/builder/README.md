@@ -100,3 +100,13 @@ val client = OkHttpClient(
 ## 단점
 - 해당 객체에 대한 빌더 클래스를 만들어야 하기 때문에 코드의 복잡성이 올라갑니다.
 
+
+<br>
+
+## 예제
+- [빌더 구조 구현](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/builder/EX1_BuilderBasic.kt)
+    - 위 구조 그림에서 보았던 구조를 직접 구현해 봅니다.
+- [OkHttp](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/builder/EX1_BuilderBasic.kt)
+    - OkHttp 구조를 간소화 하여 빌더 + 팩토리 예제에 대해 알아봅니다.
+- [Kotlin에서의 Builder 패턴?](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/builder/EX3_NamedArgument.kt)
+    - Kotlin에서 지원하는 기본 인수, named argument로 쉽게 객체 생성을 하는 방법에 대해 알아봅니다.     

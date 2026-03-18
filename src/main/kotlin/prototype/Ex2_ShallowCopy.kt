@@ -41,11 +41,10 @@ fun main() {
     // 하지만 Address는 같은 객체
     println(p1.address === p2.address) // true
 
-    // String은 불변 객체
     p2.address.city = "경기"
     println(p1.address.city) // p1 까지 경기로 바뀌게 됨
 
-
+    // String은 불변 객체
     p2.name = "Bob"
     // p1의 name은 변경되지 않음
     println(p1.name) // DK

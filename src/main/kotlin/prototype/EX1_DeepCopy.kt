@@ -41,7 +41,7 @@ data class User2(
         return User2(
             name = name,
             role = role,
-            permission = permission // 자기 자신의 필드니까 접근 가능
+            permission = permission.toSet() // 자기 자신의 필드니까 접근 가능
         )
     }
 }

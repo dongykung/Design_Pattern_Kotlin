@@ -100,4 +100,7 @@ println(p1.address === p2.address) // true
 <br>
 
 ## 예제
-- []()
+- [깊은 복사를 통해 객체를 복사](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/prototype/EX1_DeepCopy.kt)
+    - 깊은 복사를 통해 객체를 복사하여 객체를 생성하는 방법에 대해 알아봅니다,
+- [얕은 복사를 통한 객체 복사](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/prototype/Ex2_ShallowCopy.kt)     
+    - 얕으 복사를 통해 객체를 복사하고 주의해야 할 점에 대해 알아봅니다.

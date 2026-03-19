@@ -314,3 +314,13 @@ class CachingNewsRepositoryBy(
 }
 ```
 
+<br>
+<br>
+
+## 예제
+- [Ex1-inheritance](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/decorator/Ex1_inheritance.kt)
+    - 기능을 변경 확장할 때 상속의 한계점에 대해 알아봅니다
+ - [Ex2-Decorator](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/decorator/Ex2_Decorator.kt)
+     - 데코레이터 패턴에 대해 알아봅니다.
+     - 뉴스를 가져오는 Repository에서 로깅 기능 + 캐싱 기능을 추가하는 단계에 대해 알아봅니다 
+

@@ -177,7 +177,7 @@ Abstract Factory는 생성해야 할 객체 집한 군의 공통점에 초점을
 - [FactoryMethodProblem](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/abstractfactory/EX2_FactoryMethodProblem.kt) 
     - Factory Method로 이러한 상황을 구현할 시 어떤 문제점이 생기는지 알아봅니다
 - [AbstractFactory+Singleton](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/abstractfactory/EX4_AbstractFactory_Singleton.kt)
-    - AbstractFactory와 Single을 조합하여 사용하는 방법에 대해 알아봅니다
+    - AbstractFactory와 Singleton을 조합하여 사용하는 방법에 대해 알아봅니다
 - [AbstractFactory + Factory Method](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/abstractfactory/EX5_AbstractFactory%2BFactoryMethod.kt)
     - AbstractFactory + Factory-Method를 동시에 사용하는 예제에 대해 알아봅니다        
 

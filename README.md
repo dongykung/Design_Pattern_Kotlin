@@ -85,4 +85,18 @@
 - [Class-Adapter](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/adapter/EX2_ClassAdapter.kt)
   - Class-Adpater 패턴에 대해 알아봅니다
 - [Extension-Fuction](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/adapter/EX3_ExtensionFunction.kt)
-  - 확장 함수를 사용하여 Adapter Class를 생략하는 방법에 대해 알아봅니다 
+  - 확장 함수를 사용하여 Adapter Class를 생략하는 방법에 대해 알아봅니다
+ 
+
+<br>
+<br>
+
+### [Bridge](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/bridge)
+- [게임 캐릭터 예제 - 문제점](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/bridge/Ex1_ProblemWithCharacter.kt)
+  - 게임 캐릭터를 예시로 Bridge 패턴 적용 이전에 어떤 문제가 있는지 알아봅니다
+- [게임 캐릭터 예제 - 브리지 적용](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/bridge/Ex1_SolveBridgeWithCharacter.kt)
+  - 예제 1에서 Bridge 패턴 적용 후 어떤 변화가 생기는지에 대해 알아봅니다
+- [도형 예제 - 문제점](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/bridge/Ex2_ProblemWithShape.kt)
+  - Shape과 Color를 예시로 Bridge 패턴 적용 이전에 어떤 문제가 있는지 알아봅니다
+- [도형 예제 - 브리지 적용](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/bridge/Ex2_SolveBridgeWithShape.kt)
+  - 예제 2에서 Bridge 패턴 적용 후 어떤 변화가 생기는지에 대해 알아봅니다  

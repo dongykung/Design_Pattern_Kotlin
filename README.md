@@ -99,4 +99,13 @@
 - [도형 예제 - 문제점](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/bridge/Ex2_ProblemWithShape.kt)
   - Shape과 Color를 예시로 Bridge 패턴 적용 이전에 어떤 문제가 있는지 알아봅니다
 - [도형 예제 - 브리지 적용](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/bridge/Ex2_SolveBridgeWithShape.kt)
-  - 예제 2에서 Bridge 패턴 적용 후 어떤 변화가 생기는지에 대해 알아봅니다  
+  - 예제 2에서 Bridge 패턴 적용 후 어떤 변화가 생기는지에 대해 알아봅니다
+ 
+<br>
+<br>
+
+### [Facade](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/facade)
+- [Facade - Basic](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/facade/EX1_BasicFacade.kt)
+    - VideoPlay를 예시로한 Facade 패턴을 알아봅니다
+- [재귀적 퍼사드](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/facade/Ex2_RecursionFacade.kt)
+    - 예제1에에서 비디오 변환 기능을 확장하여 재귀적 퍼사드에 대해 알아봅니다  

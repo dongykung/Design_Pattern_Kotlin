@@ -2,7 +2,7 @@
 
 ## 생성 패턴
 
-### [Singleton](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/singleton)
+### [Singleton](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/singleton/README.md)
 - [Object를 사용한 싱글톤](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/singleton/Ex1_Object.kt)
 - [EagerInitialization](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/singleton/Ex2_EagerInitialization.kt)  
 - [LazyInitialization](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/singleton/Ex3_LazyInitialization.kt)
@@ -19,7 +19,7 @@
   <br>
   <br>
 
-### [Factory Method](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/factorymethod)
+### [Factory Method](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/factorymethod/README.md)
 - [SimpleFactoryMethod](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/factorymethod/EX1_SimpleFactoryMethod.kt)
     - SimpleFactoryMethod 예제를 알아봅니다 
 - [FactoryMethodBasic](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/factorymethod/EX2_FactoryMethodBasic.kt)
@@ -32,7 +32,7 @@
 <br>
 <br>
 
-### [Abstract Factory](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/abstractfactory)
+### [Abstract Factory](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/abstractfactory/README.md)
 - [Basic-AbstractFactory](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/abstractfactory/EX1_AbstractFactoryBasic.kt)
     - Abstract-Factory 기본 구조에 대해 알아봅니다 
 - [FactoryMethodProblem](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/abstractfactory/EX2_FactoryMethodProblem.kt) 
@@ -45,7 +45,7 @@
 <br>
 <br>
 
-### [Builder](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/builder)
+### [Builder](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/builder/README.md)
 - [빌더 구조 구현](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/builder/EX1_BuilderBasic.kt)
     - 위 구조 그림에서 보았던 구조를 직접 구현해 봅니다.
 - [OkHttp](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/builder/EX1_BuilderBasic.kt)
@@ -56,7 +56,7 @@
 <br>
 <br>
 
-### [Prototype](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/prototype)
+### [Prototype](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/prototype/README.md)
 - [깊은 복사를 통해 객체를 복사](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/prototype/EX1_DeepCopy.kt)
     - 깊은 복사를 통해 객체를 복사하여 객체를 생성하는 방법에 대해 알아봅니다,
 - [얕은 복사를 통한 객체 복사](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/prototype/Ex2_ShallowCopy.kt)     
@@ -69,7 +69,7 @@
 
 ## 구조 패턴
 
-### [Decorator](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/decorator)
+### [Decorator](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/decorator/README.md)
 - [Ex1-inheritance](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/decorator/Ex1_inheritance.kt)
     - 기능을 변경 확장할 때 상속의 한계점에 대해 알아봅니다
  - [Ex2-Decorator](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/decorator/Ex2_Decorator.kt)
@@ -79,7 +79,7 @@
 <br>
 <br>
 
-### [Adapter](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/adapter)
+### [Adapter](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/adapter/README.md)
 - [Object-Adapter](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/adapter/EX1_ObjectAdapter.kt)
   - Object-Adapter 패턴에 대해 알아봅니다
 - [Class-Adapter](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/adapter/EX2_ClassAdapter.kt)
@@ -91,7 +91,7 @@
 <br>
 <br>
 
-### [Bridge](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/bridge)
+### [Bridge](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/bridge/README.md)
 - [게임 캐릭터 예제 - 문제점](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/bridge/Ex1_ProblemWithCharacter.kt)
   - 게임 캐릭터를 예시로 Bridge 패턴 적용 이전에 어떤 문제가 있는지 알아봅니다
 - [게임 캐릭터 예제 - 브리지 적용](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/bridge/Ex1_SolveBridgeWithCharacter.kt)
@@ -104,8 +104,19 @@
 <br>
 <br>
 
-### [Facade](https://github.com/dongykung/Design_Pattern_Kotlin/tree/master/src/main/kotlin/facade)
+### [Facade](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/facade/README.md)
 - [Facade - Basic](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/facade/EX1_BasicFacade.kt)
     - VideoPlay를 예시로한 Facade 패턴을 알아봅니다
 - [재귀적 퍼사드](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/facade/Ex2_RecursionFacade.kt)
-    - 예제1에에서 비디오 변환 기능을 확장하여 재귀적 퍼사드에 대해 알아봅니다  
+    - 예제1에에서 비디오 변환 기능을 확장하여 재귀적 퍼사드에 대해 알아봅니다
+ 
+<br>
+<br>
+
+### [Flyweight](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/flyweight/README.md)
+- [EX1-문제점](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/flyweight/EX1_Problem.kt)
+  - 경량패턴을 적용하지 않았을 때 어떤 문제가 생기는지 알아봅니다.
+- [Ex2-경량패턴](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/flyweight/EX2_Solution.kt)
+  - 예제1의 문제를 경량패턴을 적용하여 해결하는 방안에 대해 알아봅니다.
+- [Factory+Flyweight](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/flyweight/EX3_Factory%2BFlyweight.kt)
+  - Factory Method + Flyweight이 조합된 예제에 대해 알아봅니다.    

@@ -2,6 +2,8 @@
 프록시는 원본 객체를 대신하여 클라이언트의 요청을 처리하는 객체이다.
 즉, 클라이언트는 실제 객체에 직접 접근하는 것이 아니라 프록시(대리자)를 통해 간접적으로 접근하게 된다.
 
+<img width="536" height="177" alt="image" src="https://github.com/user-attachments/assets/49886ba1-3b22-4cdf-bddd-3bef5680a080" />
+
 
 왜 클라이언트가 객체를 직접 사용하게 두지 않고 대리자를 사용하게 하는걸까? 
 
@@ -13,6 +15,7 @@
 위와 같이 대리자를 통해 해결할 수 있다.
 
 ## 구조
+<img width="740" height="740" alt="proxy" src="https://github.com/user-attachments/assets/bf2aa2f7-827b-45aa-961f-b521a2a32451" />
 
 ### ServiceInterface
 Proxy를 서비스 객체 타입으로 가지게 해주는 인터페이스

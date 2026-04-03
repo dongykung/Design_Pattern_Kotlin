@@ -119,4 +119,14 @@
 - [Ex2-경량패턴](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/flyweight/EX2_Solution.kt)
   - 예제1의 문제를 경량패턴을 적용하여 해결하는 방안에 대해 알아봅니다.
 - [Factory+Flyweight](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/flyweight/EX3_Factory%2BFlyweight.kt)
-  - Factory Method + Flyweight이 조합된 예제에 대해 알아봅니다.    
+  - Factory Method + Flyweight이 조합된 예제에 대해 알아봅니다.
+ 
+  <br>
+  <br>
+
+  ### [Proxy](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/proxy/README.md)
+- [기본 프록시](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/proxy/EX0_Basic.kt)
+- [가상 프록시](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/proxy/EX1_VirtualProxy.kt)
+- [보호 프록시](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/proxy/EX2_ProtectionProxy.kt)
+- [로깅 프록시](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/proxy/EX3_LoggingProxy.kt)
+- [캐싱 프록시](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/proxy/EX4_CachingProxy.kt)

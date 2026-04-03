@@ -297,3 +297,13 @@ val db = LoggingDecorator(
 ```
 즉, 클라이언트가 기 기능의 존재를 알아야 하면 데코레이터, 몰라도 되면 프록시라고 볼 수 있습니다.
 
+<br>
+<br>
+
+## 예제
+- [기본 프록시](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/proxy/EX0_Basic.kt)
+- [가상 프록시](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/proxy/EX1_VirtualProxy.kt)
+- [보호 프록시](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/proxy/EX2_ProtectionProxy.kt)
+- [로깅 프록시](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/proxy/EX3_LoggingProxy.kt)
+- [캐싱 프록시](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/proxy/EX4_CachingProxy.kt)
+

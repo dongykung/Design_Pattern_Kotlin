@@ -157,3 +157,16 @@
 | [캐싱 프록시](src/main/kotlin/proxy/EX4_CachingProxy.kt) | 동일 요청 결과 캐싱 |
  
 📖 [README →](src/main/kotlin/proxy/README.md)
+
+---
+ 
+### Strategy
+> 실행 중(런타임)에 알고리즘(행위)을 선택하여 객체의 동작을 런타임에 변경할 수 있게하는 행동 패턴
+ 
+| 예제 | 설명 |
+|------|------|
+| [기본 전략 패턴](src/main/kotlin/strategy/EX1_BasicStrategy.kt) | 기본 전략 패턴 예제 |
+| [전략 + 브릿지](src/main/kotlin/strategy/EX2_Strategy+Bridge.kt) | 전략 패턴+브릿지 패턴 |
+ 
+📖 [README →](src/main/kotlin/strategy/README.md)
+

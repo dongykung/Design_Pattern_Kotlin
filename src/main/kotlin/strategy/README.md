@@ -8,7 +8,9 @@
 <br>
 
 ## 구조
+<img width="440" height="370" alt="wjsfir" src="https://github.com/user-attachments/assets/8caf20f7-9461-4f62-a3f8-4fbc0b16862f" />
 
+<br><br>
 
 ### Strategy
 전략 구현체들의 인터페이스 (무엇을 하는지에 집중) <br>
@@ -121,3 +123,10 @@ Strategy는 런타임 중 행동 교체가 목적이고, Bridge는 추상-구현
 - 알고리즘이 많지 않고 거의 변하지 않는다면, 패턴과 함께 사용되는 새로운 클래스들과 인터페이스들로 더 복잡해질 수 있다.
   - 트레이드 오프를 잘 고려해야 한다.
 - 상황에 맞는 전략을 적절히 선택할 수 있어야 한다.
+
+<br>
+<br>
+
+## 예제
+- [EX1-기본 전략 패턴](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/strategy/EX1_BasicStrategy.kt)
+- [EX2-전략+브릿지](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/strategy/EX2_Strategy%2BBridge.kt)

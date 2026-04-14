@@ -9,7 +9,7 @@
 
 
 ## 구조
-
+<img width="540" height="410" alt="state" src="https://github.com/user-attachments/assets/c3fe9064-e965-4841-aeca-2237311f123d" />
 
 <br>
 <br>
@@ -118,3 +118,9 @@ object AutoPlayingState : AutoVideoPlayerState {
   - 둘 모두 합성을 기반으로 하지만 전략 패턴은 객체들이 독립적이어서 서로를 인식하지 못하게 한다
   - 상태 패턴은 객체의 상태를 객체화하여 상태 클래스 내부에서 다른 상태로 교체한다.
 - 상태 패턴은 객체 생성의 비용 절감을 위해 각 상태 객체가 상태를 가지지 않는는다면 Singleton 으로 유지한다
+
+<br>
+<br>
+
+## 예제
+- [EX1-VideoPlayer](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/state/EX1_VideoPlayer.kt)

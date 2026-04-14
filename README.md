@@ -159,6 +159,9 @@
 📖 [README →](src/main/kotlin/proxy/README.md)
 
 ---
+
+## 🏗️ 동작 패턴
+
  
 ### Strategy
 > 실행 중(런타임)에 알고리즘(행위)을 선택하여 객체의 동작을 런타임에 변경할 수 있게하는 행동 패턴
@@ -170,3 +173,13 @@
  
 📖 [README →](src/main/kotlin/strategy/README.md)
 
+---
+
+### State
+> 객체의 내부 상태가 바뀔 때, 객체의 행동이 함께 바뀌도록 하는 패턴
+ 
+| 예제 | 설명 |
+|------|------|
+| [상태패턴]([src/main/kotlin/strategy/EX1_BasicStrategy.kt](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/state/EX1_VideoPlayer.kt)) | VideoPlayer State |
+ 
+📖 [README →]([src/main/kotlin/strategy/README.md](https://github.com/dongykung/Design_Pattern_Kotlin/blob/master/src/main/kotlin/state/README.md))
